@@ -1,3 +1,105 @@
+header {
+  width: 1280;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url("imagen/inicio1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+}
 
+h2 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #cfcfcf;
+  padding: 10px 15px;
+}
+.navbar h3 {
+  color: #2e86c1;
+  margin: 0;
+}
+.navbar .navbar-toggler {
+  border: 1px solid #2e86c1;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-color: #2e86c1;
+}
+.navbar .navbar-nav .nav-link {
+  color: #2e86c1;
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #0495f7;
+  text-decoration: underline;
+}
+.navbar .navbar-nav .nav-link.active {
+  color: #154360;
+  font-style: italic;
+}
+
+.info {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+}
+
+.image-container img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: all 1s ease-in;
+}
+
+.image-container img:hover {
+  transform: scale(1.15);
+}
+
+h1 {
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 15px;
+  animation: pulse 3s infinite;
+}
+h1 h1 {
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 15px;
+}
+h1 p {
+  font-size: 1.2rem;
+  color: #6584c2;
+  line-height: 1.6;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.footer {
+  text-align: center;
+}
 
 /*# sourceMappingURL=estilo.css.map */

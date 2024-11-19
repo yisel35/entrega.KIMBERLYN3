@@ -1,0 +1,59 @@
+@import 'variables';
+
+header{
+    width: 1280;
+    height: 500px;
+    margin: 0 auto; 
+    background-image: url('imagen/inicio1.jpeg');
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat; 
+    align-items: center;
+    $font-family: Arial, sans-serif
+    
+   
+}
+h2{font-family: Arial, sans-serif;
+    text-align:  center
+
+}
+p{
+    $font-family: Arial, sans-serif;
+    text-align:  center;
+}
+.navbar {
+  background-color: $color-primario; 
+  padding: 10px 15px;
+
+  h3 {
+    color: $color-neutral-claro; 
+    margin: 0;
+  }
+
+  .navbar-toggler {
+    border: 1px solid $color-neutral-claro; 
+
+    .navbar-toggler-icon {
+      background-color: $color-neutral-claro; 
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $color-neutral-claro; 
+      margin: 0 10px;
+      text-transform: uppercase;
+      font-weight: bold;
+
+      &:hover {
+        color: $color-neutral-oscuro; 
+        text-decoration: underline;
+      }
+
+      &.active {
+        color: $color-resaltado; 
+        font-style: italic;
+      }
+    }
+  }
+}
